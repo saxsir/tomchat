@@ -1,0 +1,17 @@
+{
+  "name": "tomchat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "bower": "~1.2.7",
+    "websocket.io": "~0.2.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saxsir",
+  "license": "MIT"
+}

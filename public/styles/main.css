@@ -1,0 +1,19 @@
+body {
+  line-height: 1.4; /* 人間が一番読みやすい行間らしい */
+  color: rgb(51, 51, 51);
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 14px; /* 基本日本語なので通常(16px)より小さめ */
+}
+.container {
+  max-width: 880px;
+}
+#chat-area {
+  margin-bottom: 15px;
+}
+.meta {
+  color: #999999;
+  font-size: 1.0rem;
+}
+.chat-time {
+  margin-left: 15px;
+}
