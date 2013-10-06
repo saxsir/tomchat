@@ -88,7 +88,7 @@
       .addClass('glyphicon glyphicon-warning-sign');
     $('#chat-area').empty()
       .addClass('alert alert-dismissable alert-danger')
-      .append(closeBtn, span);
+      .append(closeBtn, span, 'サーバーに接続できませんでした');
   };
 
   //@notice Send a talk
