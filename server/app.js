@@ -17,9 +17,10 @@ server.on('connection', function(socket) {
     console.log(data);
 
     //@notice 全てのクライアントに送信
-    var clients = server.clients;
-    for (var i = 0, il = clients.length; i < il; i++) {
-      clients[i].send(data);
-    }
+    server.clients.forEach(function(client) {
+      if (client) {
+        client.send(data);
+      }
+    });
   });
 });
