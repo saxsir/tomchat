@@ -17,7 +17,8 @@
 (function (window, $) {
   //@notice Connect WebSocket server
   var port = 8124,
-    ws = new WebSocket('ws://localhost:' + port + '/');
+    host = 'sandbox.in.net',
+    ws = new WebSocket('ws://' + host +  ':' + port + '/');
 
   //@notice Put a random user name
   var userName = 'ゲスト' + Math.floor(Math.random() * 100);
