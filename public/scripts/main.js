@@ -17,7 +17,7 @@
 (function (window, $) {
   //@notice Connect WebSocket server
   var port = 8124,
-    host = 'sandbox.in.net',
+    host = 'local-tomchat.jp',
     ws = new WebSocket('ws://' + host +  ':' + port + '/');
 
   //@notice Put a random user name

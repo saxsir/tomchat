@@ -28,9 +28,9 @@
     <div class="container">
         <div class="header">
             <ul class="nav nav-pills pull-right">
-                <li><a href="index.html">Home</a>
+                <li><a href="index.php">Home</a>
                 </li>
-                <li><a href="about.html" target="_blank">About</a>
+                <li><a href="about.php" target="_blank">About</a>
                 </li>
             </ul>
             <h1 class="text-muted">Tom Chat</h1>
